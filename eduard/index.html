@@ -1,214 +1,222 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-    <!-- Esttandarde caracteres -->
-    <meta charset="UTF-8">
+    <head>
+        <!-- Esttandarde caracteres -->
+        <meta charset="UTF-8">
 
-    <!-- Etiqueta para ajustar la escala y tamaño de la página en dispositivos móviles - tablets -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Etiqueta para ajustar la escala y tamaño de la página en dispositivos móviles - tablets -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Título de la pagina -->
-    <title>Guía Completa de SEO en HTML</title>
+        <!-- Título de la pagina -->
+        <title>Guía Completa de SEO en HTML</title>
 
-    <!-- Descripción de la página para motores de búsqueda y redes sociales -->
-    <meta name="description"
-        content="Descubre cómo utilizar todas las etiquetas HTML disponibles para mejorar el SEO de tu sitio web.">
-    <!-- Palabras clave relevantes para mejorar el SEO -->
-    <meta name="keywords" content="SEO, HTML5, HTML, etiquetas, optimización, motores de búsqueda">
+        <!-- Descripción de la página para motores de búsqueda y redes sociales -->
+        <meta name="description"
+            content="Descubre cómo utilizar todas las etiquetas HTML disponibles para mejorar el SEO de tu sitio web.">
+        <!-- Palabras clave relevantes para mejorar el SEO -->
+        <meta name="keywords"
+            content="SEO, HTML5, HTML, etiquetas, optimización, motores de búsqueda">
 
-    <!-- Autor de la página -->
-    <meta name="author" content="Eduard Murillo">
+        <!-- Autor de la página -->
+        <meta name="author" content="Eduard Murillo">
 
-    <!-- Open Graph: mejora cómo se muestra la página cuando se comparte en redes sociales -->
-    <meta property="og:title" content="Guía Completa de SEO en HTML5">
-    <meta property="og:description"
-        content="Descubre cómo utilizar todas las etiquetas HTML5 disponibles para mejorar el SEO de tu sitio web.">
-    <meta property="og:image" content="seo-html5.png">
-    <meta property="og:url" content="https://mi-paginita.com/index.html">
-    <meta property="og:type" content="website">
+        <!-- Open Graph: mejora cómo se muestra la página cuando se comparte en redes sociales -->
+        <meta property="og:title" content="Guía Completa de SEO en HTML5">
+        <meta property="og:description"
+            content="Descubre cómo utilizar todas las etiquetas HTML5 disponibles para mejorar el SEO de tu sitio web.">
+        <meta property="og:image" content="seo-html5.png">
+        <meta property="og:url" content="https://mi-paginita.com/index.html">
+        <meta property="og:type" content="website">
 
-    <!-- Twitter Card: mejora cómo se muestra la página cuando se comparte en Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Guía Completa de SEO en HTML5">
-    <meta name="twitter:description"
-        content="Descubre cómo utilizar todas las etiquetas HTML5 disponibles para mejorar el SEO de tu sitio web.">
-    <meta name="twitter:image" content="seo-html5.png">
+        <!-- Twitter Card: mejora cómo se muestra la página cuando se comparte en Twitter -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Guía Completa de SEO en HTML5">
+        <meta name="twitter:description"
+            content="Descubre cómo utilizar todas las etiquetas HTML5 disponibles para mejorar el SEO de tu sitio web.">
+        <meta name="twitter:image" content="seo-html5.png">
 
-    <!-- Canonical: evita contenido duplicado especificando la URL canónica -->
-    <link rel="canonical" href="https://www.mipaginita.com/guia-completa-seo-html">
+        <!-- Canonical: evita contenido duplicado especificando la URL canónica -->
+        <link rel="canonical"
+            href="https://www.mipaginita.com/guia-completa-seo-html">
 
-    <!-- Favicon: icono que aparece en la pestaña del navegador es importante especificar el tipo ya que esto ayudara que la pagina este mas optimizada-->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <!-- Favicon: icono que aparece en la pestaña del navegador es importante especificar el tipo ya que esto ayudara que la pagina este mas optimizada-->
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-    <!-- Robots: indica a los motores de búsqueda si deben indexar la página y seguir los enlaces es decir si nuetra pagina aparcera la hacer una busqueda en google y si se puede acceder desde otra pagina -->
-    <meta name="robots" content="index, follow">
+        <!-- Robots: indica a los motores de búsqueda si deben indexar la página y seguir los enlaces es decir si nuetra pagina aparcera la hacer una busqueda en google y si se puede acceder desde otra pagina -->
+        <meta name="robots" content="index, follow">
 
-    <!-- Enlace a un archivo CSS externo para estilos -->
-    <!-- <link rel="stylesheet" href="styles.css"> -->
-</head>
+        <!-- Enlace a un archivo CSS externo para estilos -->
+        <!-- <link rel="stylesheet" href="styles.css"> -->
+    </head>
 
-<body>
-    <!-- Cabecera principal del documento, generalmente incluye el logotipo y la navegación -->
-    <header>
-        <h1>Guía Completa de SEO en HTML por Eduard y Darcy</h1>
-        <!-- Navegación principal del sitio web -->
-        <nav>
-            <ul>
-                <li><a href="#intro">Introducción</a></li>
-                <li><a href="#sections">Secciones HTML5</a></li>
-                <li><a href="#multimedia">Elementos Multimedia</a></li>
-                <li><a href="#otros">Otras Etiquetas</a></li>
-                <li><a href="#conclusion">Conclusión</a></li>
-                        <li><a href="explicacion-gestion-carpetas.html" target="_blank" rel="noopener noreferrer">Explicaciónde
-                                gestion de carpetas</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- main: Contenido principal del documento -->
-    <main>
-        <!-- Sección introductoria de la página -->
-        <section id="intro">
-            <h2>Introducción</h2>
-            <p>El SEO es crucial para mejorar la visibilidad de un sitio web
-                en los motores de búsqueda. Aquí exploraremos todas las
-                etiquetas HTML5 que puedes utilizar sin dañar tu SEO</p>
-        </section>
-
-        <!-- Sección que detalla las etiquetas semánticas y estructurales -->
-        <section id="sections">
-            <h2>Secciones HTML5</h2>
-            <!-- Artículo principal sobre las etiquetas semánticas -->
-            <article>
-                <h3>Etiquetas Semánticas</h3>
-                <p>Las etiquetas semánticas ayudan a los motores de búsqueda
-                    a entender la estructura de tu página.</p>
+    <body>
+        <!-- Cabecera principal del documento, generalmente incluye el logotipo y la navegación -->
+        <header>
+            <h1>Guía Completa de SEO en HTML por Eduard y Darcy</h1>
+            <!-- Navegación principal del sitio web -->
+            <nav>
                 <ul>
-                    <li><strong>&lt;header&gt;</strong>: Define la cabecera
-                        de una sección o página.</li>
-                    <li><strong>&lt;nav&gt;</strong>: Define un bloque de
-                        navegación.</li>
-                    <li><strong>&lt;main&gt;</strong>: Contenido principal
-                        del documento, único por página.</li>
-                    <li><strong>&lt;article&gt;</strong>: Define contenido
-                        independiente, como un artículo o blog.</li>
-                    <li><strong>&lt;section&gt;</strong>: Agrupa contenido
-                        relacionado.</li>
-                    <li><strong>&lt;aside&gt;</strong>: Contenido
-                        relacionado, pero no principal, como barras
-                        laterales.</li>
-                    <li><strong>&lt;footer&gt;</strong>: Pie de página,
-                        incluye información como copyright y enlaces.</li>
+                    <li><a href="#intro">Introducción</a></li>
+                    <li><a href="#sections">Secciones HTML5</a></li>
+                    <li><a href="#multimedia">Elementos Multimedia</a></li>
+                    <li><a href="#otros">Otras Etiquetas</a></li>
+                    <li><a href="#conclusion">Conclusión</a></li>
+                    <li><a href="explicacion-gestion-carpetas.html"
+                            target="_blank"
+                            rel="noopener noreferrer">Explicaciónde
+                            gestion de carpetas</a></li>
                 </ul>
-            </article>
+            </nav>
+        </header>
 
-            <!-- Artículo sobre la importancia de las etiquetas de encabezado -->
-            <article>  
-                <h3>Encabezados</h3>
-                <!-- 
+        <!-- main: Contenido principal del documento -->
+        <main>
+            <!-- Sección introductoria de la página -->
+            <section id="intro">
+                <h2>Introducción</h2>
+                <p>El SEO es crucial para mejorar la visibilidad de un sitio web
+                    en los motores de búsqueda. Aquí exploraremos todas las
+                    etiquetas HTML5 que puedes utilizar sin dañar tu SEO</p>
+            </section>
+
+            <!-- Sección que detalla las etiquetas semánticas y estructurales -->
+            <section id="sections">
+                <h2>Secciones HTML5</h2>
+                <!-- Artículo principal sobre las etiquetas semánticas -->
+                <article>
+                    <h3>Etiquetas Semánticas</h3>
+                    <p>Las etiquetas semánticas ayudan a los motores de búsqueda
+                        a entender la estructura de tu página.</p>
+                    <ul>
+                        <li><strong>&lt;header&gt;</strong>: Define la cabecera
+                            de una sección o página.</li>
+                        <li><strong>&lt;nav&gt;</strong>: Define un bloque de
+                            navegación.</li>
+                        <li><strong>&lt;main&gt;</strong>: Contenido principal
+                            del documento, único por página.</li>
+                        <li><strong>&lt;article&gt;</strong>: Define contenido
+                            independiente, como un artículo o blog.</li>
+                        <li><strong>&lt;section&gt;</strong>: Agrupa contenido
+                            relacionado.</li>
+                        <li><strong>&lt;aside&gt;</strong>: Contenido
+                            relacionado, pero no principal, como barras
+                            laterales.</li>
+                        <li><strong>&lt;footer&gt;</strong>: Pie de página,
+                            incluye información como copyright y enlaces.</li>
+                    </ul>
+                </article>
+
+                <!-- Artículo sobre la importancia de las etiquetas de encabezado -->
+                <article>
+                    <h3>Encabezados</h3>
+                    <!-- 
                 &lt; menor que <
                 &gt; mayor que >
                 -->
-                <p>Los encabezados <code>&lt;h1&gt; - &lt;h6&gt;</code>
-                    estructuran el contenido jerárquicamente.</p>
-                <ol>
-                    <li><code>&lt;h1&gt;</code>: Título principal de la
-                        página, debe ser único.</li>
-                    <li><code>&lt;h2&gt;</code>: Subtítulos principales,
-                        normalmente para secciones.</li>
-                    <li><code>&lt;h3&gt;</code> - <code>&lt;h6&gt;</code>:
-                        Subtítulos secundarios, para subsecciones.</li>
-                </ol>
-            </article>
-        </section>
+                    <p>Los encabezados <code>&lt;h1&gt; - &lt;h6&gt;</code>
+                        estructuran el contenido jerárquicamente.</p>
+                    <ol>
+                        <li><code>&lt;h1&gt;</code>: Título principal de la
+                            página, debe ser único.</li>
+                        <li><code>&lt;h2&gt;</code>: Subtítulos principales,
+                            normalmente para secciones.</li>
+                        <li><code>&lt;h3&gt;</code> - <code>&lt;h6&gt;</code>:
+                            Subtítulos secundarios, para subsecciones.</li>
+                    </ol>
+                </article>
+            </section>
 
-        <!-- Sección que cubre etiquetas para contenido multimedia -->
-        <section id="multimedia">
-            <h2>Elementos Multimedia</h2>
-            <!-- Artículo sobre el uso de imágenes en HTML5 -->
-            <article>
-                <h3>Imágenes</h3>
-                <p>Las imágenes son esenciales, pero deben ser optimizadas
-                    para SEO.</p>
-                <figure>
-                    <img src="https://marketing.legal/files/AMBX545453KPG5T/images/marketing-seo/cog-search-engine-optimization.png" alt="Ejemplo de optimización de imágenes para SEO" width="300px" height="300px">
-                    <figcaption>Figura 1: nos indica que contiene el seo o para que nos sirve.</figcaption>
-                </figure>
-            </article>
+            <!-- Sección que cubre etiquetas para contenido multimedia -->
+            <section id="multimedia">
+                <h2>Elementos Multimedia</h2>
+                <!-- Artículo sobre el uso de imágenes en HTML5 -->
+                <article>
+                    <h3>Imágenes</h3>
+                    <p>Las imágenes son esenciales, pero deben ser optimizadas
+                        para SEO.</p>
+                    <figure>
+                        <img
+                            src="https://marketing.legal/files/AMBX545453KPG5T/images/marketing-seo/cog-search-engine-optimization.png"
+                            alt="Ejemplo de optimización de imágenes para SEO"
+                            width="300px" height="300px">
+                        <figcaption>Figura 1: nos indica que contiene el seo o
+                            para que nos sirve.</figcaption>
+                    </figure>
+                </article>
+                <!-- Artículo sobre el uso de audio y video en HTML5 -->
+                <article>
+                    <h3>Audio y Video</h3>
+                    <p>El contenido multimedia enriquece la experiencia del
+                        usuario y es bien recibido por los motores de
+                        búsqueda.</p>
+                    <video controls>
+                        <source src="ejemplo-video.mp4" type="video/mp4">
+                        Tu navegador no soporta la etiqueta de video.
+                    </video>
+                    <audio controls>
+                        <source src="ejemplo-audio.mp3" type="audio/mpeg">
+                        Tu navegador no soporta la etiqueta de audio.
+                    </audio>
+                </article>
+            </section>
 
-            <!-- Artículo sobre el uso de audio y video en HTML5 -->
-            <article>
-                <h3>Audio y Video</h3>
-                <p>El contenido multimedia enriquece la experiencia del
-                    usuario y es bien recibido por los motores de
-                    búsqueda.</p>
-                <video controls>
-                    <source src="ejemplo-video.mp4" type="video/mp4">
-                    Tu navegador no soporta la etiqueta de video.
-                </video>
-                <audio controls>
-                    <source src="ejemplo-audio.mp3" type="audio/mpeg">
-                    Tu navegador no soporta la etiqueta de audio.
-                </audio>
-            </article>
-        </section>
+            <!-- Sección que cubre etiquetas adicionales útiles -->
+            <section id="otros">
+                <h2>Otras Etiquetas HTML5</h2>
+                <article>
+                    <h3>Listas y Tablas</h3>
+                    <p>Las listas y tablas organizan la información de manera
+                        clara.</p>
+                    <ul>
+                        <li><strong>&lt;ul&gt;</strong>: Lista desordenada.</li>
+                        <li><strong>&lt;ol&gt;</strong>: Lista ordenada.</li>
+                        <li><strong>&lt;li&gt;</strong>: Elemento de una
+                            lista.</li>
+                        <li><strong>&lt;table&gt;</strong>: Define una
+                            tabla.</li>
+                        <li><strong>&lt;tr&gt;</strong>: Fila de una tabla.</li>
+                        <li><strong>&lt;th&gt;</strong>: Encabezado de una
+                            columna en una tabla.</li>
+                        <li><strong>&lt;td&gt;</strong>: Celda de una
+                            tabla.</li>
+                    </ul>
+                </article>
 
-        <!-- Sección que cubre etiquetas adicionales útiles -->
-        <section id="otros">
-            <h2>Otras Etiquetas HTML5</h2>
-            <article>
-                <h3>Listas y Tablas</h3>
-                <p>Las listas y tablas organizan la información de manera
-                    clara.</p>
-                <ul>
-                    <li><strong>&lt;ul&gt;</strong>: Lista desordenada.</li>
-                    <li><strong>&lt;ol&gt;</strong>: Lista ordenada.</li>
-                    <li><strong>&lt;li&gt;</strong>: Elemento de una
-                        lista.</li>
-                    <li><strong>&lt;table&gt;</strong>: Define una
-                        tabla.</li>
-                    <li><strong>&lt;tr&gt;</strong>: Fila de una tabla.</li>
-                    <li><strong>&lt;th&gt;</strong>: Encabezado de una
-                        columna en una tabla.</li>
-                    <li><strong>&lt;td&gt;</strong>: Celda de una
-                        tabla.</li>
-                </ul>
-            </article>
+                <article>
+                    <h3>Formularios</h3>
+                    <p>Los formularios son fundamentales para la interacción del
+                        usuario.</p>
+                    <form action="#" method="post">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
 
-            <article>
-                <h3>Formularios</h3>
-                <p>Los formularios son fundamentales para la interacción del
-                    usuario.</p>
-                <form action="#" method="post">
-                    <label for="name">Nombre:</label>
-                    <input type="text" id="name" name="name" required>
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required>
 
-                    <label for="email">Correo electrónico:</label>
-                    <input type="email" id="email" name="email" required>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </article>
 
-                    <input type="submit" value="Enviar">
-                </form>
-            </article>
+                <article>
+                    <h3>Enlaces y Anclas</h3>
+                    <p>Los enlaces y anclas permiten la navegación interna y
+                        externa.</p>
+                    <p><a href="https://www.google.com" target="_blank">Visita
+                            Google</a></p>
+                    <p><a href="#intro">Regresar a la Introducción</a></p>
+                </article>
+            </section>
+        </main>
 
-            <article>
-                <h3>Enlaces y Anclas</h3>
-                <p>Los enlaces y anclas permiten la navegación interna y
-                    externa.</p>
-                <p><a href="https://www.google.com" target="_blank">Visita
-                        Google</a></p>
-                <p><a href="#intro">Regresar a la Introducción</a></p>
-            </article>
-        </section>
-    </main>
-
-    <!-- Pie de página con información adicional -->
-    <footer>
-        <p>&copy; 2024 Tu Nombre. Todos los derechos reservados.</p>
-        <address>
-            Contacta con nosotros: <a href="mailto:contacto@tusitioweb.com">contacto@tusitioweb.com</a>
-        </address>
-    </footer>
-</body>
+        <!-- Pie de página con información adicional -->
+        <footer>
+            <p>&copy; 2024 Tu Nombre. Todos los derechos reservados.</p>
+            <address>
+                Contacta con nosotros: <a
+                    href="mailto:contacto@tusitioweb.com">contacto@tusitioweb.com</a>
+            </address>
+        </footer>
+    </body>
 
 </html>\
